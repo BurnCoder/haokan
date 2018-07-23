@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+.rrr_list{
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.rrr_list_ul{
+	overflow: hidden;
+}
+
+.rrr_list_ul li,
+.rrr_list_ul a{
+	display: block;
+	overflow: hidden;
+}
+
+.rrr_list_ul li{
+	background: url(/images/icon_26.png) no-repeat .15rem center;
+	background-size: .38rem auto;
+	border-bottom: 1px solid #edf0fa;
+}
+
+.rrr_list_ul li:last-child{
+	border-bottom: 0;
+}
+
+.rrr_list_ul a{
+	overflow: hidden;
+	padding: .1rem .15rem .1rem .68rem;
+}
+
+.rrr_li_txt{
+	overflow: hidden;
+}
+
+.rrr_li_txt_tit,
+.rrr_li_txt_p{
+	overflow: hidden;
+	height: .26rem;
+}
+
+.rrr_li_txt_tit strong,
+.rrr_li_txt_p strong{
+	float: left;
+	height: .26rem;
+	font-size: .15rem;
+	color: #5e6a94;
+	line-height: .26rem;
+	font-weight: normal;
+}
+
+.rrr_li_txt_tit span,
+.rrr_li_txt_p span{
+	float: right;
+	height: .26rem;
+	font-size: .15rem;
+	color: #f63566;
+	line-height: .26rem;
+}
+
+
+.rrr_li_txt_p strong{
+	font-size: .13rem;
+	color: #aeb4ca;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

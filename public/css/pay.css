@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document */
+.re_head_box{
+	position: relative;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	margin-bottom: .1rem;
+	padding: .15rem 0 .15rem .15rem;
+	height: .48rem;
+	background-color: #fff;
+}
+
+.re_img{
+	overflow: hidden;
+	position: absolute;
+	left: .15rem;
+	top: .15rem;
+	width: .48rem;
+	height: .48rem;
+	border-radius: .48rem;
+}
+.re_img_vip{
+	position: absolute;
+	left: .15rem;
+	top: .15rem;
+	width: .48rem;
+	height: .48rem;
+	padding: 1px;
+	border-radius: .48rem;
+	box-sizing: border-box;
+	-moz-box-shadow:0 0 0 1px #ffd99e;
+	-webkit-box-shadow:0 0 0 1px #ffd99e;
+	box-shadow:0 0 0 1px #ffd99e;
+	box-sizing: border-box;
+}
+
+.re_img_vip span{
+	position: absolute;
+	left: 50%;
+	bottom: -.02rem;
+	margin: 0 0 0 -.145rem;
+	width: .29rem;
+	height: .12rem;
+	background: url(/assetsimages/user_vip_2.png) no-repeat center center/100% 100%;
+}
+
+.re_img img,
+.re_img_vip img{
+	height: 100%;
+	width: 100%;
+	border-radius: .48rem;
+}
+
+.re_user_info_box{
+	overflow: hidden;
+	margin: 0 0 0 .64rem;
+	height: .48rem;
+}
+
+.re_user_info_box h3{
+	height: .3rem;
+	font-size: .15rem;
+	color: #0a347e;
+	line-height: .3rem;
+}
+
+.re_user_info{
+	overflow: hidden;
+	height: .18rem;
+}
+
+.re_user_info em{
+	float: left;
+	height: .18rem;
+	width: 43%;
+	font-size: .13rem;
+	color: #aeb4ca;
+	line-height: .18rem;
+}
+
+.re_user_info em span{
+	display: inline;
+	color: #5e6a94;
+}
+
+.re_user_info strong{
+	float: left;
+	padding-left: .19rem;
+	height: .18rem;
+	width: 56%;
+	border-left: 1px solid #dfe1e6;
+	font-size: .13rem;
+	color: #aeb4ca;
+	line-height: .18rem;
+	box-sizing: border-box;
+}
+.re_user_info strong span{
+	display: inline;
+	color: #f63566;
+}
+
+
+.re_main_box{
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.re_vip_txt{
+	overflow: hidden;
+	padding: .1rem .15rem;
+	background-color: #e9f9f5;
+}
+
+.re_vip_txt em,
+.re_vip_txt strong{
+	overflow: hidden;
+	display: block;
+	font-size: .13rem;
+	line-height: .2rem;
+}
+
+.re_vip_txt em{
+	color: #bbb;
+}
+.re_vip_txt strong{
+	color: #f56451;
+}
+
+.re_list_box{
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.re_list_tit{
+	overflow: hidden;
+	margin: 0 .15rem;
+	padding: .16rem 0 .14rem;
+}
+
+.re_list_tit h2{
+	font-size: .16rem;
+	color: #5e6a94;
+	line-height: .24rem;
+}
+
+.re_list_tit h2 span{
+	color: #aeb4ca;
+}
+
+.re_list_ul{
+	overflow: hidden;
+	padding: 0 .07rem;
+}
+
+.re_list_ul li{
+	float: left;
+	overflow: hidden;
+	width: 50%;
+}
+
+.re_list_ul a{
+	display: block;
+	overflow: hidden;
+	position: relative;
+	left: 0;
+	top: 0;
+	margin: 0 .08rem .16rem;
+	padding: .05rem 0 .05rem .12rem;
+	-moz-box-shadow:0 0 0 1px #ced2df inset;
+	-webkit-box-shadow:0 0 0 1px #ced2df inset;
+	box-shadow:0 0 0 1px #ced2df inset;
+	box-sizing: border-box;
+}
+
+.re_list_ul strong{
+	display: block;
+	height: .24rem;
+	font-size: .16rem;
+	color: #494a4c;
+	font-weight: 600;
+	line-height: .24rem
+}
+
+.re_list_ul em{
+	overflow: hidden;
+	display: block;
+	height: .24rem;
+	font-size: .13rem;
+	color: #999;
+	line-height: .24rem;
+}
+
+.re_list_ul span{
+	display: inline;
+	font-size: .13rem;
+	color: #fa5d57;
+}
+
+.re_list_ul i{
+	overflow: hidden;
+	padding: 0 .04rem 0 .08rem;
+	position: absolute;
+	right: 0;
+	top: .08rem;
+	height: .18rem;
+	background-color: #fb6b69;
+	font-size: .12rem;
+	color: #fff;
+	line-height: .18rem;
+	border-radius: .18rem 0 0 .18rem;
+}
+
+.re_list_ul b{
+	overflow: hidden;
+	display: block;
+	font-size: .13rem;
+	color: #fa5d57;
+	font-weight: normal;
+	line-height: .2rem;
+}
+
+.re_list_ul .hover a{
+	-moz-box-shadow:0 0 0 2px #27c1a0 inset;
+	-webkit-box-shadow:0 0 0 2px #27c1a0 inset;
+	box-shadow:0 0 0 2px #27c1a0 inset;
+	background:url(/images/elect_icon_3.png) no-repeat right bottom;
+	background-size: .23rem auto;
+}
+
+.re_but_box{
+	overflow: hidden;
+	padding: .04rem .15rem;
+}
+
+.re_but_box a{
+	display: block;
+	margin: 0 auto;
+	height: .36rem;
+	width: 2.1rem;
+	background-color: #27c1a0;
+	font-size: .16rem;
+	color: #fff;
+	text-align: center;
+	line-height: .36rem;
+	border-radius: .36rem;
+}
+
+.re_rule_box{
+	overflow: hidden;
+	padding:.2rem .15rem;
+	background-color: #fff;
+}
+
+.re_rule_box p{
+	overflow: hidden;
+	padding: .02rem 0;
+	font-size: .13rem;
+	color: #5e6a94;
+	line-height: .2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
